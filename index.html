@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-To-Do-List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My To Do List</h1>
+    </header>
+    <main>
+    <div>
+        <img src="/images/background-img-M104.jpg" alt="universe" width="100%">
+    </div>
+    <div class="form-part">
+        <form>
+            <label for="task">Task:</label><br>
+            <input type="text" id="task" name="task"><br>
+
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date">
+<br>
+            <label for="Urgency">Urgency:</label>
+            <br>
+            <select id="urgency" name="urgency">
+                <br>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <br>
+            <button  id="submit" type="button">Submit</button>
+        </form>
+    </div>
+    <div id="theTable"></div>
+</main>
+<script src="app.js"></script>
+</body>
+
+</html>
